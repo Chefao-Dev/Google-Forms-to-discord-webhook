@@ -13,7 +13,7 @@ Enviar automaticamente respostas do Google Formulários para um canal do Discord
 ## Instalando o script
 
 1. No seu Formulário do Google, clique no ícone dos 3 pontos no canto superior direito e escolha `Editor de Script`.
-2. Substitua o conteúdo padrão pelo conteúdo de [index.js](https://raw.githubusercontent.com/ManuelFte/Google-Forms-to-Discord/master/index.js).
+2. Substitua o conteúdo padrão pelo conteúdo de [script.js](https://raw.githubusercontent.com/Chefao-Dev/Google-Forms-to-discord-webhook/main/script.js).
 3. Preencha as variáveis ​​com as informações solicitadas.
 4. Clique em `Salvar`.
 
