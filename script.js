@@ -1,4 +1,4 @@
-const POST_URL = "LINK_WEBHOOK_AQUI";
+const WEBHOOK_LINK = "LINK_WEBHOOK_AQUI";
 
 function onSubmit(e) {
     const response = e.response.getItemResponses();
@@ -45,7 +45,7 @@ function onSubmit(e) {
             "content": "‌",
             "embeds": [{
                 "title": "Novo Formulário Recebido", // titulo da embed
-                "color": 33023, // This is optional, you can look for decimal colour codes at 
+                "color": 33023, // decimal color
                 "fields": items,
                 "footer": {
                     "text": "formulário recebido" // texto footer
@@ -55,5 +55,5 @@ function onSubmit(e) {
         })
     };
 
-    UrlFetchApp.fetch(POST_URL, options);
+    UrlFetchApp.fetch(WEBHOOK_LINK, options);
 };
