@@ -45,10 +45,10 @@ function onSubmit(e) {
             "content": "‌",
             "embeds": [{
                 "title": "Novo Formulário Recebido", // titulo da embed
-                "color": 33023, // This is optional, you can look for decimal colour codes at https://www.webtoolkitonline.com/hexadecimal-decimal-color-converter.html
+                "color": 33023, // This is optional, you can look for decimal colour codes at 
                 "fields": items,
                 "footer": {
-                    "text": "formulário recebido"
+                    "text": "formulário recebido" // texto footer
                 },
                 "timestamp": new Date().toISOString()
             }]
